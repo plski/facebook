@@ -40,7 +40,19 @@
          }
        }
     
+    
+function checkLoginState() {
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
+}
+    
 </script>  
+    
+    <fb:login-button 
+  scope="public_profile,email,user_birthday"
+  onlogin="checkLoginState();">
+</fb:login-button>
     
    </body>
   
