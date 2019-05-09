@@ -64,7 +64,7 @@
       document.getElementById('logout').style.display = 'none';
       document.getElementById('profil').style.display = 'none';
       document.getElementById('fb-btn').style.display = 'block';
-      document.getElementById('naglowek').innerHTML = `Nie jesteś zalogowany(a), zaloguj się!`;
+      document.getElementById('naglowek').innerHTML = `Zaloguj się!`;
     }
   }
 
